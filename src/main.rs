@@ -22,6 +22,6 @@ fn main() {
     let mut outputfile = File::create("output.txt").expect("Unable to write file!");
 
     for line in lines{
-        writeln!(outputfile, "{}", line);
+        writeln!(outputfile, "{}", line).expect("There was an Error");
     }
 }
