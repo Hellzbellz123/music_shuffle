@@ -1,4 +1,4 @@
-# music_shuffle
+# music_shuffle [![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
 
 built with rust
 omg it actually works, clone and cargo build --release, drop a text file with a bunch of lines and it will output a shuffled list
